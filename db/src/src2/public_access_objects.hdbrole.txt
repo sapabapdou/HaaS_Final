@@ -1,0 +1,42 @@
+{
+    "role": {
+        "name": "DOU::PublicAccessObjects",
+        "object_privileges": [
+            {
+                "name": "DOU::ANLT_VW",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "DOU::ATTR_VW",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "DOU::DIM_CAL_1",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "DOU::DIM_CAL_2",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            },
+            {
+                "name": "DOU::PRIV_DIM_CAL_2",
+                "type": "VIEW",
+                "privileges": [
+                    "SELECT"
+                ]
+            }
+        ]
+    }
+}

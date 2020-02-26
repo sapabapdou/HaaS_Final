@@ -1,0 +1,13 @@
+{
+    "role": {
+        "name": "DOU::PublicAccessSchema",
+        "schema_privileges": [
+            {
+                "privileges": [
+                    "SELECT",
+                    "EXECUTE"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" schemaVersion="2.3" id="DOU::DIM_CAL_1" applyPrivilegeType="NONE" defaultClient="$$client$$" defaultLanguage="$$language$$" hierarchiesSQLEnabled="false" dataCategory="DIMENSION" enforceSqlExecution="false" executionSemantic="UNDEFINED" outputViewType="Projection" xscCompatibilityMode="true">
+  <origin/>
+  <descriptions defaultDescription="DIM_CAL_1"/>
+  <metadata changedAt="2020-02-07 12:23:45.29"/>
+  <localVariables/>
+  <variableMappings/>
+  <informationModelLayout relativeWidthScenario="27"/>
+  <dataSources>
+    <DataSource id="EMPDIM">
+      <resourceUri>DOU::EMPDIM</resourceUri>
+    </DataSource>
+  </dataSources>
+  <calculationViews/>
+  <logicalModel id="EMPDIM">
+    <descriptions/>
+    <attributes>
+      <attribute id="EMPID" order="1" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="EMPID"/>
+        <keyMapping columnObjectName="EMPDIM" columnName="EMPID"/>
+      </attribute>
+      <attribute id="EMPNAME" order="2" attributeHierarchyActive="false" displayAttribute="false">
+        <descriptions defaultDescription="EMPNAME"/>
+        <keyMapping columnObjectName="EMPDIM" columnName="EMPNAME"/>
+      </attribute>
+    </attributes>
+    <calculatedAttributes/>
+    <privateDataFoundation>
+      <tableProxies/>
+      <joins/>
+      <layout>
+        <shapes/>
+      </layout>
+    </privateDataFoundation>
+    <baseMeasures/>
+    <calculatedMeasures/>
+    <restrictedMeasures/>
+    <localDimensions/>
+  </logicalModel>
+  <layout>
+    <shapes>
+      <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+        <upperLeftCorner x="40" y="85"/>
+        <rectangleSize height="0" width="0"/>
+      </shape>
+    </shapes>
+  </layout>
+</Calculation:scenario>
